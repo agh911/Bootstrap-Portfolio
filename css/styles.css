@@ -14,16 +14,24 @@
 /* JUMBOTRON */
 
 img {
-    width: 150px;
+    width: 300px;
 
 }
 
 .jumbotron {
     background: var(--secondary-color);
-    display: flex;
+    color: var(--primary-color);
 }
 
 /* NAV BAR */
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color) !important;
+}
 
 .bg-dark {
 background-color: var(--primary-color) !important;
