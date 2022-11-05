@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #16161a;
+    --secondary-color: #eff0f3;
+    --hover-color: #dd7295;
+  }
+
+
+  body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+
+
+/* JUMBOTRON */
+
+img {
+    width: 150px;
+
+}
+
+.jumbotron {
+    background: var(--secondary-color);
+    display: flex;
+}
+
+/* NAV BAR */
+
+.bg-dark {
+background-color: var(--primary-color) !important;
+}
+
+/* WORK */
+
+.card {
+    background-color: var(--secondary-color) !important;
+    color: var(--primary-color);
+    border: 1px solid rgba(239, 240, 243, .1);
+}
+
+.card{
+    opacity: 80%;
+}
+
+.card:hover {
+    opacity: 100%;
+}
