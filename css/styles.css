@@ -2,25 +2,36 @@
     --primary-color: #16161a;
     --secondary-color: #eff0f3;
     --hover-color: #dd7295;
-  }
+}
 
+/* RESETS */
 
-  body {
+body {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-  }
+}
 
-
+/* CUSTOM STYLES */
 /* JUMBOTRON */
 
 img {
     width: 300px;
+}
 
+hr {
+    border-top: 1px solid rgba(239, 240, 243, .5) !important;
 }
 
 .jumbotron {
-    background: var(--secondary-color);
-    color: var(--primary-color);
+    background-image: url(../images/hero3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+.hero-content {
+    background-color: rgba(22, 22, 26, .7);
+    padding: 35px 0;
 }
 
 /* NAV BAR */
@@ -29,12 +40,16 @@ img {
     justify-content: flex-end;
 }
 
+.navbar {
+    padding: .8rem 2rem;
+}
+
 .nav-link:hover {
-    color: var(--secondary-color) !important;
+    color: var(--hover-color) !important;
 }
 
 .bg-dark {
-background-color: var(--primary-color) !important;
+    background-color: var(--primary-color) !important;
 }
 
 /* WORK */
@@ -45,10 +60,56 @@ background-color: var(--primary-color) !important;
     border: 1px solid rgba(239, 240, 243, .1);
 }
 
-.card{
+.card {
     opacity: 80%;
 }
 
 .card:hover {
     opacity: 100%;
+}
+
+/* SKILLS */
+
+.progress-bar {
+    background-color: #cb557c;
+}
+
+/* CONTACT */
+
+#contact .row img {
+    width: 180px;
+}
+
+.fa-2xl {
+    line-height: normal !important;
+}
+
+#contact a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: var(--hover-color);
+}
+
+/* FOOTER */
+
+footer p {
+    font-size: small;
+    opacity: 80%;
+}
+
+footer a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--hover-color);
+    text-decoration: none;
+}
+
+.logo {
+    width: 38px;
 }
