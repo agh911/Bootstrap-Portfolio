@@ -7,7 +7,7 @@ The purpose of this project was to build a portfolio layout from scratch using t
 
 ## Usage 
 
-The following animations show the [web application's](https://agh911.github.io/Bootstrap-Portfolio/) appearance, functionality and responsive design:
+The following animations show the [web application's](https://agh911.github.io/Bootstrap-Portfolio/) appearance and functionality:
 
 * Desktop
 
