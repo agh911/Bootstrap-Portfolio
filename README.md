@@ -25,16 +25,17 @@ The following animations show the [web application's](https://agh911.github.io/B
 
 ## Links
 
-* [Deployed Application](https://agh911.github.io/Bootstrap-Portfolio/)
+* [Deployed Application](https://agh911.github.io/Bootstrap-Portfolio/).
 
 
 ## Credits
 
 * [Hero image](https://unsplash.com/photos/m_HRfLhgABo).
-* [Bootstrap documentation](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+* [Bootstrap documentation](https://getbootstrap.com/docs/4.6/getting-started/introduction/).
 
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 
