@@ -2,7 +2,7 @@
 
 ## Description 
 
-The purpose of this project was to build a portfolio layout from scratch using the Bootstrap CSS Framework in order to learn how it works and become familiar with it.
+The purpose of this project was to rebuild a portfolio layout from scratch using the Bootstrap CSS Framework in order to learn how it works and become familiar with it.
 
 
 ## Usage 
@@ -31,10 +31,14 @@ The following animations show the [web application's](https://agh911.github.io/B
 ## Credits
 
 * [Hero image](https://unsplash.com/photos/m_HRfLhgABo).
-* [Bootstrap documentation](https://getbootstrap.com/docs/4.6/getting-started/introduction/).
+* [Bootstrap Documentation](https://getbootstrap.com/docs/4.6/getting-started/introduction/).
+* [Font Awesome Icons](https://fontawesome.com/).
+* [GitHub Badges](https://shields.io/)
 
 
 ## License
+
+![License](https://img.shields.io/github/license/agh911/Bootstrap-Portfolio?color=informational&label=License)
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
