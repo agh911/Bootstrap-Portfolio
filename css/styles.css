@@ -6,6 +6,10 @@
 
 /* RESETS */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--primary-color);
     color: var(--secondary-color);
